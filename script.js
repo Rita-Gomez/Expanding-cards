@@ -11,7 +11,9 @@ panels.forEach(panel=>{
     })
 })
 const removeActiveClasses = ()=>{
-    panels.forEach(panel =>{
+    panels.forEach(panel=>{
         panel.classList.remove('active')
     })
+        
+    
 }
